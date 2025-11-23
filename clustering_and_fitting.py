@@ -147,7 +147,7 @@ def plot_fitted_data(data, x, y):
 
 
 def main():
-    df = pd.read_csv(r"C:\Users\narsi\Downloads\sales_data.csv")
+    df = pd.read_csv("data.csv")
     df = preprocessing(df)
 
     col = "Sales_Amount"
